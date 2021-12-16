@@ -7,10 +7,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class SQRServiceTest {
 
     @Test
-    void shouldmultyplyByYourself() {
+    void shouldMultyplyByYourself() {
         SQRService service = new SQRService();
-        int expected = 5;
-        int actual = service.shouldmultyplyByYourself(600, 800);
+        int expected = 2;
+        int actual = service.multyplyByYourself(625, 676);
         assertEquals(expected, actual);
     }
 }
